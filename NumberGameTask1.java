@@ -44,7 +44,7 @@ public class NumberGameTask1{
             System.out.print("Do you want to play again? (yes/no): ");
         } while (scanner.next().equalsIgnoreCase("yes"));
 
-        System.out.printf("Game over. You played %d rounds. Your total score is %d.\n", rounds, totalAttempts);
+        System.out.printf("Game over. You played %d rounds. Your total score is %d.\n", rounds,100-(totalAttempts*5));
         scanner.close();
     }
 }
